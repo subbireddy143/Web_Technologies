@@ -1,0 +1,60 @@
+﻿student1, student2, student3 {
+    background-color: black;
+    color: white;
+    display: inline-table;
+    border: 3px solid green;
+    border-spacing: 10px;
+    padding-bottom: 20px;
+}
+
+usn, name {
+    display: block;
+    border: 1px solid green;
+    font-size: 30px;
+    font-style:italic;
+    padding:5px;
+    text-align:center;
+}
+
+college, email, yoj, branch {
+    display:block;
+    font-size:20px;
+}
+
+branch {
+    color:orangered;
+}
+email {
+    color:aquamarine;
+    border-bottom:1px dotted whitesmoke;
+}
+
+studentlist {
+    background-color: cornsilk;
+}
+
+title {
+    display: block;
+    background-color: cornflowerblue;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 10%;
+    color: white;
+    text-align: center;
+}
+
+gap {
+    display:inline-block;
+    padding:20px;
+}
+
+lgap {
+    display: block;
+    padding: 20px;
+}
+
+end {
+    display:block;
+    font-size:30px;
+    text-align:center;
+}

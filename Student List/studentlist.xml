@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<?xml-stylesheet type="text/css" href="studentlist.css"?>
+
+<studentlist>
+  <title>STUDENT LIST-1CR18CS083</title>
+  <lgap> </lgap>
+  <student1>
+    <usn>1CR18CS0XY</usn>
+    <name>STUDENT 1</name>
+    <college>CMRIT</college>
+    <branch>CSE</branch>
+    <email>stu118cs@cmrit.ac.in</email>
+    <yoj>2018</yoj>
+  </student1>
+  <gap> </gap>
+  <student2>
+    <usn>1CR18CS0XX</usn>
+    <name>STUDENT 2</name>
+    <college>CMRIT</college>
+    <branch>CSE</branch>
+    <email>stu218cs@cmrit.ac.in</email>
+    <yoj>2018</yoj>
+  </student2>
+  <gap> </gap>
+  <student3>
+    <usn>1CR18IS0XX</usn>
+    <name>STUDENT 3</name>
+    <college>CMRIT</college>
+    <branch>ISE</branch>
+    <email>stu318is@cmrit.ac.in</email>
+    <yoj>2018</yoj>
+  </student3>
+  <lgap>  </lgap>
+  <lgap>  </lgap>
+  <lgap>  </lgap>
+  <end>By KALLURU SUBBI REDDY(KSR)</end>
+</studentlist>
