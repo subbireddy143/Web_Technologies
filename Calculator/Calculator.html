@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Calculator.css">
+    <title>Calculator-1CR18CS083</title>
+
+    <script>
+        //function that display value
+        function dis(val) {
+            document.getElementById("result").value += val
+        }
+
+        //function to delete last element
+        function del() {
+            let x = document.getElementById("result").value
+            x = x.slice(0, -1)
+            document.getElementById("result").value = x
+        }
+
+        //function that evaluates the digit and return result
+        function solve() {
+            let x = document.getElementById("result").value
+            let y = eval(x)
+            document.getElementById("result").value = y
+        }
+
+        //function that clear the display
+        function clr() {
+            document.getElementById("result").value = ""
+        }
+    </script>
+
+</head>
+<body>
+    <div class="header">
+        <h1>Calculator - 1CR18CS083</h1>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="calculator">
+
+            <table class="calc-button-section">
+
+                <tr>
+
+                    <td class="clac-screen" colspan="3">
+                        <input readonly id="result" type="text" />
+                    </td>
+                    <td>
+                        KSR
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td colspan="4" style="border-top:2px solid white;">
+                    <td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button onclick="clr()" style="background-color:red;width:120px; border-radius: 10%;">C</button></td>
+                    <td><button onclick="dis('+')" class="symbol">+</button></td>
+                    <td><button onclick="dis('-')" class="symbol">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="dis('9')">9</button></td>
+                    <td><button onclick="dis('8')">8</button></td>
+                    <td><button onclick="dis('7')">7</button></td>
+                    <td><button onclick="dis('*')" class="symbol">*</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="dis('6')">6</button></td>
+                    <td><button onclick="dis('5')">5</button></td>
+                    <td><button onclick="dis('4')">4</button></td>
+                    <td><button onclick="dis('/')" class="symbol">/</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="dis('3')">3</button></td>
+                    <td><button onclick="dis('2')">2</button></td>
+                    <td><button onclick="dis('1')">1</button></td>
+                    <td rowspan="2"><button onclick="solve()" style="height:120px;background-color:forestgreen; border-radius: 10%;">=</button></td>
+                </tr>
+
+                <tr>
+                    <td><button onclick="dis('.')">.</button></td>
+                    <td><button onclick="dis('0')">0</button></td>
+                    <td><button onclick="del()" style="background-color:orangered; border-radius: 50%;">del</button></td>
+                </tr>
+            </table>
+
+            <br><br><br><br>
+            <h1>By KALLURU SUBBI REDDY(KSR)</h1>
+        </div>
+    </div>
+</body>
+</html>
