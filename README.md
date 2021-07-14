@@ -7,4 +7,4 @@ Slno. | Name
 3 | [Student List](https://subbireddy143.github.io/Web_Technologies/Student%20List/studentlist.xml)
 4 | [Digital Clock](https://subbireddy143.github.io/Web_Technologies/DigitalClock/DigitalClock.php)
 5 | [Text Growing](https://subbireddy143.github.io/Web_Technologies/TextGrowing/TextGrowing.html)
-6 | [Student List](https://subbireddy143.github.io/Web_Technologies/VowelAndReverseonInt/VowelAndReverse.html)
+6 | [Vowel and Reverse on Int](https://subbireddy143.github.io/Web_Technologies/VowelAndReverseonInt/VowelAndReverse.html)
