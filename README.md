@@ -1,4 +1,4 @@
-# Web_Technologies
+# Web_Technologies Lab
 **Assignments of Web Technologies**
 Slno. | Name
 ------------ | -------------
